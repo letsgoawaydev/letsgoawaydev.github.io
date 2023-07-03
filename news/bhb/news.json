@@ -1,24 +1,18 @@
 {
     "news": {
         "tab1": {
-            "active": true,
-            "haslink": true,
             "title": "Tab 1",
             "description": "this is tab 1",
             "link": "https://google.com",
             "buttonText": "Google"
         },
         "tab2": {
-            "active": true,
-            "haslink": true,
             "title": "Tab 2",
             "description": "this is tab 2",
             "link": "https://bing.com",
             "buttonText": "Bing"
         },
         "tab3": {
-            "active": true,
-            "haslink": true,
             "title": "Tab 3",
             "description": "this is tab 3",
             "link": "https://yahoo.com",
