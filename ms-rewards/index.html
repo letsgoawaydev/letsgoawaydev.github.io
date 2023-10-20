@@ -6,7 +6,7 @@
     <script>
         function redirect(ele) {
             if(event.key === 'Enter') {
-                     window.location.href = 'https://bing.com/?q=' + document.getElementById("bing").value;
+                     window.open('https://bing.com/?q=' + document.getElementById("bing").value, "_blank");
             }
         }
     </script>
