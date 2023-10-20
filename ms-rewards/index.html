@@ -1,2 +1,13 @@
 <!DOCTYPE HTML>
-<input type="text"></input>
+<html> 
+    <body>
+        <input type="text" name="bing" id="bing" placeholder="Search bing..." onkeydown="redirect(this)">
+    </body>
+    <script>
+        function redirect(ele) {
+            if(event.key === 'Enter') {
+                     window.location.href = 'https://bing.com/?q=' + document.getElementById("bing").value;
+            }
+        }
+    </script>
+</html>
