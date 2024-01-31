@@ -11,6 +11,7 @@ window.addEventListener('mousemove', (ev) => {
 
 window.setInterval(() => {
     if (started) {
+        document.getElementById("lastSecHZ").innerText = "Last sec: " + mouseMovedTimes + "hz";
         if (mouseMovedTimes != 0) {
             hzArray.push(mouseMovedTimes);
         }
@@ -54,6 +55,7 @@ function reset() {
     hzMaximum = 0;
     document.getElementById("maxHZ").innerText = "Max: 0hz";
     document.getElementById("avgHZ").innerText = "Avg: 0hz";
+    document.getElementById("lastSecHZ").innerText = "Last sec: 0hz";
     document.getElementById("modeHZ").innerText = "Your Mouse's Polling Rate: 0hz";
 
 
@@ -63,7 +65,6 @@ function toggle() {
     if (started) {
         document.getElementById("toggleStateBut").innerText = "Stop";
         document.getElementById("notif").innerText = "Move your mouse in a circle on this window to calculate!";
-
     } else {
         document.getElementById("toggleStateBut").innerText = "Start";
         document.getElementById("notif").innerText = "";
