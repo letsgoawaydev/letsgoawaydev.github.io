@@ -1,0 +1,18 @@
+* {
+    font-family: sans-serif;
+    color-scheme: dark;
+}
+
+a {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.mono {
+    font-family: monospace;
+}

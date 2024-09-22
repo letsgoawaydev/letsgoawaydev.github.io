@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Asset Downloader</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MC Asset Downloader</h1>
+    <div id="content">
+        <label for="showextras">Show historical versions</label>
+        <input type="checkbox" id="showextras" name="showextras" />
+        <br>
+        <label for="versiondropdown">Select Version:</label>
+    </div>
+
+    <button id="download">Download</button>
+    <br>
+    <h3>Download Options</h3>
+    <label for="dlmojang">Enable Mojang API</label>
+    <input type="checkbox" id="dlmojang" name="dlmojang" />
+    <br>
+    <label for="downloadsounds">Download Sounds (requires Mojang API)</label>
+    <input type="checkbox" id="downloadsounds" name="downloadsounds" checked />
+    <br>
+    <label for="downloadlangs">Download Languages (requires Mojang API)</label>
+    <input type="checkbox" id="downloadlangs" name="downloadlangs" checked />
+    <br>
+    <div id="assets">
+        <p class="mono" id="status">Loading version index...</p>
+    </div>
+    <script src="FileSaver.min.js"></script>
+    <script src="jszip.min.js"></script>
+    <script src="jszip-utils.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
