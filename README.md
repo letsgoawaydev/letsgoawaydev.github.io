@@ -1,2 +1,2 @@
-# letsgoaway-games.github.io
+# letsgoaway.github.io
 website
