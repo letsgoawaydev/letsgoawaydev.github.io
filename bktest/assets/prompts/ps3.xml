@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ps3.png">
+<SubTexture name="ps3 o0000" x="282" y="0" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 x0000" x="282" y="82" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 dpad0000" x="0" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 dpadDown0000" x="94" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 dpadLeft0000" x="0" y="94" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 dpadRight0000" x="94" y="94" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 dpadUp0000" x="188" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 l10000" x="364" y="67" width="90" height="63" frameX="-5" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 l20000" x="82" y="277" width="88" height="75" frameX="-6" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 lStick0000" x="188" y="94" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 lStickClick0000" x="0" y="188" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 r10000" x="364" y="130" width="90" height="63" frameX="-5" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 r20000" x="170" y="277" width="88" height="75" frameX="-6" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 rStick0000" x="86" y="188" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 rStickClick0000" x="176" y="188" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 select0000" x="364" y="0" width="92" height="67" frameX="-4" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 square0000" x="282" y="164" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 start0000" x="258" y="277" width="76" height="74" frameX="-13" frameY="-11" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps3 triangle0000" x="0" y="277" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

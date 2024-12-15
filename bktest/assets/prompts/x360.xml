@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="x360.png">
+<SubTexture name="x360 a0000" x="344" y="0" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 b0000" x="344" y="82" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 back0000" x="270" y="170" width="70" height="69" frameX="-16" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 backAlt0000" x="0" y="351" width="92" height="52" frameX="-5" frameY="-24" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 dpad0000" x="90" y="90" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 dpadDown0000" x="0" y="0" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 dpadLeft0000" x="90" y="0" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 dpadRight0000" x="180" y="0" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 dpadUp0000" x="0" y="90" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 lb0000" x="157" y="269" width="90" height="63" frameX="-5" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 lStick0000" x="180" y="89" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 lStickClick0000" x="0" y="180" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 lt0000" x="270" y="0" width="74" height="85" frameX="-13" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 rb0000" x="247" y="269" width="90" height="63" frameX="-5" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 rStick0000" x="86" y="180" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 rStickClick0000" x="176" y="180" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 rt0000" x="270" y="85" width="74" height="85" frameX="-13" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 start0000" x="82" y="269" width="75" height="69" frameX="-13" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 startAlt0000" x="92" y="351" width="92" height="52" frameX="-5" frameY="-24" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 x0000" x="344" y="164" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="x360 y0000" x="0" y="269" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

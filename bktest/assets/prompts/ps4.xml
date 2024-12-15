@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ps4.png">
+<SubTexture name="ps4 o0000" x="1148" y="768" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 x0000" x="1230" y="768" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 psBranded0000" x="0" y="0" width="1284" height="768" frameX="-87" frameY="-77" frameWidth="1452" frameHeight="940" />
+<SubTexture name="ps4 psDebranded0000" x="1284" y="0" width="1284" height="768" frameX="-87" frameY="-77" frameWidth="1452" frameHeight="940" />
+<SubTexture name="ps4 dpad0000" x="0" y="768" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 dpadDown0000" x="94" y="768" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 dpadLeft0000" x="188" y="768" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 dpadRight0000" x="282" y="768" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 dpadUp0000" x="376" y="768" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 l10000" x="1574" y="768" width="82" height="58" frameX="-9" frameY="-21" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 l20000" x="1000" y="768" width="74" height="84" frameX="-15" frameY="-10" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 lStick0000" x="470" y="768" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 lStickClick0000" x="560" y="768" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 options0000" x="905" y="768" width="95" height="85" frameX="-3" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 r10000" x="1656" y="768" width="82" height="58" frameX="-9" frameY="-21" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 r20000" x="1074" y="768" width="74" height="84" frameX="-15" frameY="-10" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 rStick0000" x="646" y="768" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 rStickClick0000" x="736" y="768" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 share0000" x="822" y="768" width="83" height="89" frameX="-8" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 square0000" x="1312" y="768" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 touchpad0000" x="1476" y="768" width="98" height="66" frameX="-1" frameY="-17" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps4 triangle0000" x="1394" y="768" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

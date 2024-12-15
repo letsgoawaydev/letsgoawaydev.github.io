@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ps5.png">
+<SubTexture name="ps5 o0000" x="1064" y="788" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 x0000" x="1146" y="788" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 ps5Branded0000" x="0" y="0" width="1344" height="788" frameX="-57" frameY="-55" frameWidth="1452" frameHeight="940" />
+<SubTexture name="ps5 ps5Debranded0000" x="1344" y="0" width="1344" height="788" frameX="-57" frameY="-55" frameWidth="1452" frameHeight="940" />
+<SubTexture name="ps5 dpad0000" x="0" y="788" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 dpadDown0000" x="94" y="788" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 dpadLeft0000" x="188" y="788" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 dpadRight0000" x="282" y="788" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 dpadUp0000" x="376" y="788" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 l10000" x="1590" y="788" width="85" height="65" frameX="-7" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 l20000" x="914" y="788" width="75" height="86" frameX="-13" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 lStick0000" x="516" y="788" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 lStickClick0000" x="606" y="788" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 mic0000" x="1504" y="788" width="86" height="70" frameX="-7" frameY="-20" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 options0000" x="470" y="788" width="46" height="90" frameX="-27" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 optionsAlt0000" x="1392" y="788" width="56" height="78" frameX="-22" frameY="-11" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 r10000" x="1675" y="788" width="85" height="65" frameX="-7" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 r20000" x="989" y="788" width="75" height="86" frameX="-13" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 rStick0000" x="692" y="788" width="90" height="89" frameX="-5" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 rStickClick0000" x="782" y="788" width="86" height="89" frameX="-7" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 create0000" x="868" y="788" width="46" height="89" frameX="-27" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 createAlt0000" x="1448" y="788" width="56" height="78" frameX="-22" frameY="-11" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 square0000" x="1228" y="788" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 touchpad0000" x="1760" y="788" width="92" height="51" frameX="-4" frameY="-26" frameWidth="100" frameHeight="100" />
+<SubTexture name="ps5 triangle0000" x="1310" y="788" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

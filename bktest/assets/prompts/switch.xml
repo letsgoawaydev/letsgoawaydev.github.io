@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="switch.png">
+<SubTexture name="switch a0000" x="0" y="276" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch b0000" x="82" y="276" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch lJoy0000" x="440" y="0" width="89" height="50" frameX="-5" frameY="-27" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch rJoy0000" x="318" y="358" width="85" height="59" frameX="-7" frameY="-24" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch bJoy0000" x="278" y="0" width="80" height="86" frameX="-9" frameY="-6" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch sJoy0000" x="0" y="0" width="94" height="94" frameX="-3" frameY="-2" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch buttonDown0000" x="164" y="276" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch dpad0000" x="94" y="0" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch dpadDown0000" x="0" y="94" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch dpadLeft0000" x="92" y="94" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch dpadRight0000" x="186" y="0" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch dpadUp0000" x="186" y="92" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch home0000" x="0" y="186" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch l0000" x="166" y="358" width="76" height="72" frameX="-12" frameY="-13" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch buttonLeft0000" x="246" y="276" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch lStick0000" x="90" y="186" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch zl0000" x="0" y="358" width="83" height="75" frameX="-8" frameY="-12" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch -0000" x="440" y="50" width="75" height="27" frameX="-13" frameY="-37" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch +0000" x="278" y="164" width="75" height="75" frameX="-13" frameY="-13" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch r0000" x="242" y="358" width="76" height="72" frameX="-12" frameY="-13" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch buttonLeft0001" x="358" y="0" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch rStick0000" x="180" y="186" width="90" height="90" frameX="-5" frameY="-5" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch zr0000" x="83" y="358" width="83" height="75" frameX="-8" frameY="-12" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch capture0000" x="278" y="86" width="78" height="78" frameX="-11" frameY="-11" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch buttonUp0000" x="358" y="82" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch x0000" x="358" y="164" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="switch y0000" x="358" y="246" width="82" height="82" frameX="-9" frameY="-9" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

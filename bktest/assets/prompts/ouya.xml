@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ouya.png">
+<SubTexture name="ouya a0000" x="94" y="188" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya dpad0000" x="0" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya dpadDown0000" x="94" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya dpadLeft0000" x="0" y="94" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya dpadRight0000" x="94" y="94" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya dpadUp0000" x="188" y="0" width="94" height="94" frameX="-3" frameY="-3" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya l10000" x="272" y="281" width="92" height="54" frameX="-4" frameY="-23" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya l20000" x="88" y="281" width="92" height="64" frameX="-4" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya lStick0000" x="188" y="94" width="94" height="93" frameX="-3" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya menu0000" x="178" y="188" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya o0000" x="282" y="0" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya r10000" x="366" y="0" width="92" height="54" frameX="-4" frameY="-23" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya r20000" x="180" y="281" width="92" height="64" frameX="-4" frameY="-18" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya rStick0000" x="0" y="188" width="94" height="93" frameX="-3" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya touch0000" x="0" y="281" width="88" height="83" frameX="-6" frameY="-9" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya u0000" x="282" y="84" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="ouya y0000" x="282" y="168" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="wii.png">
+<SubTexture name="wii 10000" x="0" y="188" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii 20000" x="84" y="188" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii a0000" x="168" y="188" width="84" height="84" frameX="-8" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii b0000" x="280" y="0" width="81" height="84" frameX="-10" frameY="-8" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii c0000" x="210" y="272" width="70" height="54" frameX="-15" frameY="-23" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii dpad0000" x="96" y="0" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii dpadDown0000" x="0" y="96" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii dpadLeft0000" x="92" y="96" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii dpadRight0000" x="188" y="0" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii dpadUp0000" x="188" y="92" width="92" height="92" frameX="-4" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii home0000" x="280" y="84" width="68" height="68" frameX="-16" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii -0000" x="280" y="152" width="68" height="68" frameX="-16" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii +0000" x="0" y="272" width="68" height="68" frameX="-16" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii power0000" x="68" y="272" width="68" height="68" frameX="-16" frameY="-16" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii stick0000" x="0" y="0" width="96" height="96" frameX="-2" frameY="-2" frameWidth="100" frameHeight="100" />
+<SubTexture name="wii z0000" x="136" y="272" width="74" height="56" frameX="-13" frameY="-22" frameWidth="100" frameHeight="100" />
+</TextureAtlas>

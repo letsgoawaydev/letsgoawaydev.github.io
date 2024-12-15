@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="mouseDark.png">
+<SubTexture name="mouseDark leftClick0000" x="68" y="0" width="68" height="92" frameX="-16" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="mouseDark scrollClick0000" x="136" y="0" width="68" height="92" frameX="-16" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="mouseDark rightClick0000" x="0" y="92" width="68" height="92" frameX="-16" frameY="-4" frameWidth="100" frameHeight="100" />
+<SubTexture name="mouseDark none0000" x="0" y="0" width="68" height="92" frameX="-16" frameY="-4" frameWidth="100" frameHeight="100" />
+</TextureAtlas>
