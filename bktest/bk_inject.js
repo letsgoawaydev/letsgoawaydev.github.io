@@ -1,5 +1,10 @@
 window.addEventListener("touchstart", (ev) => {
-    if (!!DeviceMotionEvent.requestPermission) {
-        DeviceMotionEvent.requestPermission();
+    if (typeof( DeviceMotionEvent.requestPermission ) === "function") {
+        DeviceMotionEvent.requestPermission()
+        .then((response)=>{
+            if (response == 'granted'){
+                window.postMessage("yipeemotion");
+            }
+        });
     }
 });
