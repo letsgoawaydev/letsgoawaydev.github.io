@@ -8,7 +8,7 @@
 
 	<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes">
-
+	<meta name="theme-color" content="#000000"/>
 	::if favicons::::foreach (favicons)::
 	<link rel="::__current__.rel::" type="::__current__.type::" href="::__current__.href::">::end::::end::
 
@@ -27,7 +27,7 @@
 	</script>
 
 	<style>
-		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; }
+		html,body { margin: 0; padding: 0; height: 100%; overflow: hidden; background: #000000; }
 		#openfl-content { ::if (WIN_BACKGROUND)::background: #000000; ::end::width: ::if (WIN_RESIZABLE)::100%::elseif (WIN_WIDTH > 0)::::WIN_WIDTH::px::else::100%::end::; height: ::if (WIN_RESIZABLE)::100%::elseif (WIN_WIDTH > 0)::::WIN_HEIGHT::px::else::100%::end::; }
 ::foreach assets::::if (type == "font")::::if (cssFontFace)::::cssFontFace::::end::::end::::end::
 	</style>
