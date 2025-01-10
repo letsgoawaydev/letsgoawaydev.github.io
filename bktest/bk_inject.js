@@ -5,8 +5,7 @@ HTMLCanvasElement.prototype.getContext = ((origFn) => {
         }
 
         attributes = Object.assign({}, attributes, {
-            alpha:true,
-            colorSpace: "display-p3",
+
             desynchronized: type != "2d",
             preserveDrawingBuffer: true,
             antialias: false,
