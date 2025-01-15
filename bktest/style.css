@@ -1,0 +1,18 @@
+#audioFixText {
+    font-family: 'Bill Kolumbert UI', "Comic Sans MS", sans-serif;
+    color: white;
+    font-smooth: never;
+    -webkit-font-smoothing : none;
+}
+
+#audioFixImg {
+    image-rendering: pixelated;
+}
+
+#audioFix {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
