@@ -82,3 +82,9 @@ window.bk_vibrate = function (time, strength, side) {
 window.addEventListener('gamepadconnected', (ev) => {
     console.log(ev.gamepad);
 });
+
+window.addEventListener("keydown", (ev) => {
+    if (ev.code == "F3") {
+        ev.preventDefault();
+    }
+});
