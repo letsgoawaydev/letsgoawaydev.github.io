@@ -46,7 +46,6 @@ function spinSplash(ev) {
   return false;
 }
 
-
 // lga speech
 const callback = function (entries) {
   entries.forEach(entry => {
