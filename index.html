@@ -2,10 +2,111 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, shrink-to-fit=yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>LetsGoAway</title>
-  <meta http-equiv="refresh" content="0; url=https://letsgoaway.neocities.org" />
+  <link href="style.css?1.0" rel="stylesheet" type="text/css" media="all">
 </head>
+
+<body>
+  <div class="parent" id="main">
+    <div id="left-banner">
+      <h1>Projects</h1>
+      <a href="https://modrinth.com/plugin/geyserextras" target="_blank" rel="noopener noreferrer"
+        title="Download on Modrinth">
+        <h2>GeyserExtras</h2>
+      </a>
+      <i><a href="https://geyserextras.letsgoaway.dev/">wiki</a></i>
+      <p>A plugin which attempts to unify features for Bedrock Edition players on Java Edition Servers with GeyserMC,
+        aswell as other handy features for Bedrock Players.</p>
+      <br>
+      <a href="https://modrinth.com/plugin/mapxyz" target="_blank" rel="noopener noreferrer"
+      title="Download on Modrinth">
+      <h2>MapXYZ</h2>
+      </a>
+      <p>A Spigot Minecraft plugin that shows XYZ coordinates on maps like Legacy Console and has other features that make maps better, including locator maps and the starting map gamerule for Java Edition.</p>
+      <br>
+      <a href="https://modrinth.com/mod/client-side-sounds" target="_blank" rel="noopener noreferrer"
+        title="Download on Modrinth">
+        <h2>Client Side Sounds</h2>
+      </a>
+      <p>A mod for Minecraft 1.8.9 that fixes the delay of block place sounds when you have high ping.</p>
+      <br>
+      <a href="https://gamebanana.com/mods/521628" target="_blank" rel="noopener noreferrer"
+        title="Download on GameBanana">
+        <h2>Blue House Bundle</h2>
+      </a>
+      <i><a onclick="openFrameGUI('https\://gamesandthings.letsgoaway.dev/app-fnf/bhb/')">play web version</a></i>
+      <p>Friday Night Funkin' Mod that I helped my friends with and that you should play! :D Runs using my fork of
+        PsychEngine called BundleEngine.</p>
+      <a onclick="openFrameGUI('https\://itch.io/embed-upload/11950296?color=845bfa')"><img src="bill.png" id="bhbphone"
+          alt="Bill Kolumbert"></a>
+      <br>
+      <a href="https://bundleteam.itch.io/bill-kolumbert" target="_blank" rel="noopener noreferrer"
+        title="Play on itch">
+        <h2>Bill Kolumbert</h2>
+      </a>
+      <i><a onclick="openFrameGUI('https\://itch.io/embed-upload/11950296?color=845bfa')">play</a></i>
+      <p>Touch/Click and Drag</p>
+      <p>to fling Bill!</p>
+      <h1>Links</h1>
+      <h2><a href="https://discord.gg/2FfuShKQgy" target="_blank" rel="noopener noreferrer">Discord 🗪</a></h2>
+      <h2><a href="https://github.com/letsgoawaydev" target="_blank" rel="noopener noreferrer" class="monospace">GitHub
+          ᓚᘏᗢ</a></h2>
+
+      <div>
+        <img src="lga.png" id="lga" alt="LetsGoAway">
+        <p id="speech" class="show-on-scroll is-visible">hi, sites still being worked on :p</p>
+      </div>
+    </div>
+    <div id="container">
+      <p id="hugetext">LetsGoAway</p>
+      <p id="splash" onclick="changeSplash()" oncontextmenu="spinSplash(event)"></p>
+
+      <h1>IDK WHAT TO PUT HERE YET :DDDD</h1>
+    </div>
+    <div id="right-banner">
+      <h1>Sitemap</h1>
+      <a href="https://letsgoaway.atabook.org/">
+        <h2>Guestbook 🕮</h2>
+      </a>
+      <h1>Scripts & Stuff</h1>
+      <i>every thing here runs in the browser!</i>
+
+      <u>minecraft</u>
+      <a href="mcassetdownloader">
+        <h3>MCAssetDownloader</h3>
+      </a>
+      <a href="MarketplaceEmoteList">
+        <h3>Marketplace Emote List</h3>
+      </a>
+      <a href="DevinsBadgesGenerator">
+        <h3>Devin's Badges Generator</h3>
+      </a>
+      <u>other</u>
+      <a href="polling-rate-calculator">
+        <h3>Mouse Polling Rate Calculator</h3>
+      </a>
+      <a href="discgif">
+        <h3>DiscGif (Image to GIF)</h3>
+      </a>
+      <br>
+      <h1>Widgets</h1>
+      <br>
+      <iframe src="//incr.easrng.net/badge?key=letsgoawayneocity"
+        style="border:none;background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88"
+        height="31"></iframe>
+    </div>
+  </div>
+  <div id="frame-container">
+    <button class="frame-button" id="close" onclick="deleteFrameGUI()">⛌</button>
+    <button class="frame-button" id="reload" onclick="frameReload()">⟳</button>
+
+    <button class="frame-button" id="newtab" onclick="openInNewTabGUI()">🗖</button>
+    <button class="frame-button" id="fullscreen">⛶</button>
+  </div>
+  <script src="script.js?1.0"></script>
+</body>
 
 </html>
