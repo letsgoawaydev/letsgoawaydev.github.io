@@ -1,4 +1,4 @@
-// Initial scroll so we dont break the speech text stuff at the bottom
+// Initial scroll so we dont break the lga speech text stuff at the bottom
 window.scrollTo(0, 0);
 
 // Custom defines

@@ -1,9 +1,12 @@
 :root,
+html,
 body {
   background-color: #0c1212;
   color: white;
   width: 100%;
   height: 100%;
+  padding: 0;
+  margin: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -12,7 +15,7 @@ body {
 
 @font-face {
   font-family: DSI;
-  src: url(Nintendo-DS-BIOS.ttf);
+  src: url(assets/Nintendo-DS-BIOS.ttf);
   font-kerning: none;
   font-smooth: never;
   -webkit-font-smoothing: none;
@@ -20,270 +23,24 @@ body {
 }
 
 * {
-  font-family: DSI, "MS UI Gothic";
-  padding: 0;
-  margin: 0;
+  font-family: "MS UI Gothic", DSI;
   font-smooth: never;
   -webkit-font-smoothing: none;
   text-rendering: optimizeSpeed;
 }
 
-.parent {
-  display: grid;
-  grid-template-columns: 200px 900px 200px;
-  place-content: center;
-  position: relative;
-  box-sizing: content-box;
-  margin: auto;
-  width: 100%;
-}
-
-.banner {
-  position: absolute;
-  width: 200px;
-  right: 0;
-}
-
-#hugetext {
-  left: 0;
-  font-size: 64px;
-  position: absolute;
-  text-align: center;
-  top: 15px;
-  width: 100% !important;
-}
-
-#splash {
-  color: yellow;
-  left: 500px;
-  font-size: 24px;
-  position: absolute;
-  text-align: center;
-  top: 65px;
-  width: 400px;
-  height: 24px;
-  max-height: 24px;
-  transform: rotate(-16deg);
-  transition: transform 2s;
-  animation: 0.25s infinite alternate splashbump;
-  animation-timing-function: linear;
-  user-select: none;
-}
-
-#splash.spin {
-  transform: rotate(344deg);
-}
-
-#container {
-  background-color: #0f1f1f;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 900px;
-  position: relative;
-  max-width: 900px;
-  min-width: 900px;
-  height: 1920px;
-  display: grid;
-  align-items: center;
-}
-
 h1 {
-  line-height: 48px;
+    font-family: DSI;
+    font-weight: normal;
+}
+#title {
+    font-size: 64px;
 }
 
-#left-banner {
-  padding-top: 15px;
-  padding-right: 15px;
-  line-height: 20px;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 100% !important;
-  position: relative;
-  left: -15px;
-  top: 0;
-  height: auto;
-}
-
-a,
-a:link,
-a:visited {
-  cursor: pointer;
-  color: #008080;
-  text-decoration: none;
-  transition: color 0.25s ease-out;
-}
-
-a:hover {
-  color: #73eaee;
-}
-
-a:active {
-  transform: scale(0.98, 0.98);
-}
-
-#right-banner {
-  padding-top: 15px;
-  padding-left: 15px;
-  line-height: 20px;
-  overflow: hidden;
-  margin: 0 auto;
-  width: 100% !important;
-  position: relative;
-  right: 0;
-  top: 0;
-  height: auto;
-  display: table-row;
-}
-
-#lga {
-  left: 0;
-  bottom: 0;
-  object-fit: cover;
-  position: absolute;
-  width: 155px;
-  height: 200px;
-  user-select: none;
-}
-
-#bhbphone {
-  position: absolute;
-  height: 96px;
-  width: auto;
-  right: 15px;
-  top: -10;
-  transform-origin: bottom;
-  animation: 0.65s infinite forwards bumpphone;
-  animation-timing-function: linear;
-}
-
-@keyframes bumpphone {
-  from {
-    transform: scaleY(1.0);
-  }
-
-  5% {
-    transform: scaleY(0.9);
-
-  }
-
-  50% {
-    transform: scaleY(1.0);
-  }
-
-  to {
-    transform: scaleY(1.0);
-  }
-}
-
-#bhbphone:hover {
-  animation: 0.2s alternate infinite rotatephone;
-  animation-timing-function: linear;
-}
-
-@keyframes rotatephone {
-  from {
-    transform: rotateY(0);
-  }
-
-  to {
-    transform: rotateY(3.142rad);
-  }
-}
-
-#speech {
-  width: 0px;
-  left: 25px;
-  bottom: 190px;
-  position: absolute;
-  line-height: 14px;
-  height: 14px;
-  word-wrap: break-word;
-  overflow: hidden;
-  word-break: break-all;
-  z-index: 99;
-}
-
-
-#speech.is-visible {
-  animation: speechtext 4s;
-  animation-timing-function: linear;
-  animation-fill-mode: forwards;
-  width: 200px;
-}
-
-@keyframes speechtext {
-  0% {
-    width: 0px;
-  }
-
-  100% {
-    width: 200px;
-  }
-}
-
-@keyframes splashbump {
-  from {
-    scale: 1.0;
-  }
-
-  to {
-    scale: 1.1;
-  }
-}
-
-.monospace {
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 16px;
-}
-
-#frame-container {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(128, 128, 128, 0.75);
-}
-
-#frame {
-  position: fixed;
-  width: 75%;
-  border-style: dotted;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  aspect-ratio: 16/9;
-  background-color: #008080;
-}
-
-.frame-button {
-  position: fixed;
-  width: 24px;
-  height: 24px;
-  line-height: 0;
-  background-color: #0f1f1f;
-  border: none;
-  transition: background-color 0.25s ease-out;
-
-}
-
-.frame-button:hover {
-  background-color: cadetblue;
-}
-
-#close {
-  font-size: 64;
-}
-
-#reload {
-  left: 24px;
-}
-
-#newtab {
-  right: 24px;
-}
-
-#fullscreen {
-  right: 0;
+#bar {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 16px;
 }
