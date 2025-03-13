@@ -26,11 +26,12 @@ body {
   font-smooth: never;
   -webkit-font-smoothing: none;
   text-rendering: optimizeSpeed;
+  scrollbar-color: #0f1f1f #0c1212;
 }
 
 .parent {
   display: grid;
-  grid-template-columns: 200px 900px 200px;
+  grid-template-columns: 264px 792px 264px;
   place-content: center;
   position: relative;
   box-sizing: content-box;
@@ -51,11 +52,17 @@ body {
   text-align: center;
   top: 15px;
   width: 100% !important;
+  height: auto;
+}
+
+#guestbook_frame {
+    height: 100%;
+    border: none;
 }
 
 #splash {
   color: yellow;
-  left: 500px;
+  right: 15px;
   font-size: 24px;
   position: absolute;
   text-align: center;
@@ -63,7 +70,7 @@ body {
   width: 400px;
   height: 24px;
   max-height: 24px;
-  transform: rotate(-16deg);
+  rotate: -16deg;
   transition: transform 2s;
   animation: 0.25s infinite alternate splashbump;
   animation-timing-function: linear;
@@ -71,20 +78,17 @@ body {
 }
 
 #splash.spin {
-  transform: rotate(344deg);
+  transform: rotate(360deg);
 }
 
 #container {
   background-color: #0f1f1f;
   overflow: hidden;
   margin: 0 auto;
-  width: 900px;
+  width: 100%;
   position: relative;
-  max-width: 900px;
-  min-width: 900px;
   height: 1920px;
-  display: grid;
-  align-items: center;
+  display: flex;
 }
 
 h1 {
@@ -286,4 +290,11 @@ a:active {
 
 #fullscreen {
   right: 0;
+}
+
+#guestbook {
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    left: 0px;
 }
