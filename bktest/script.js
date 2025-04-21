@@ -14,16 +14,12 @@ window.bk_bridgeSettings = function (string) {
 
 HTMLCanvasElement.prototype.getContext = ((origFn) => {
     return function (type, attributes) {
-        if (!window.mobileCheck() && type == "webgl2") {
-            return null;
-        }
 
         attributes = Object.assign({}, attributes, {
-            desynchronized: type != "2d",
-            preserveDrawingBuffer: true,
+            desynchronized: (type != "2d"),
+            preserveDrawingBuffer: false,
             antialias: window.bk_bridgeSettings != null ? window.bk_bridgeSettings.ANTIALIASING : false,
             powerPreference: "high-performance",
-            preferLowPowerToHighPerformance: false,
             xrCompatible: true, // use the best possible gpu
         });
 
