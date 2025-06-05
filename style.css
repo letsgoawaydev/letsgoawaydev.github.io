@@ -149,48 +149,31 @@ a:active {
   user-select: none;
 }
 
-#bhbphone {
+#billk {
+  image-rendering: pixelated;
   position: absolute;
-  height: 96px;
+  height: 128px;
   width: auto;
   right: 15px;
   top: -10;
-  transform-origin: bottom;
-  animation: 0.65s infinite forwards bumpphone;
+  transform-origin:  center;
   animation-timing-function: linear;
 }
 
-@keyframes bumpphone {
-  from {
-    transform: scaleY(1.0);
-  }
 
-  5% {
-    transform: scaleY(0.9);
 
-  }
-
-  50% {
-    transform: scaleY(1.0);
-  }
-
-  to {
-    transform: scaleY(1.0);
-  }
-}
-
-#bhbphone:hover {
-  animation: 0.2s alternate infinite rotatephone;
+#billk:hover {
+  animation: 0.5s forwards infinite rotatephone;
   animation-timing-function: linear;
 }
 
 @keyframes rotatephone {
   from {
-    transform: rotateY(0);
+    transform: rotate();
   }
 
   to {
-    transform: rotateY(3.142rad);
+    transform: rotate(360deg);
   }
 }
 

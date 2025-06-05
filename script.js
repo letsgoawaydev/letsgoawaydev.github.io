@@ -89,3 +89,11 @@ function openInNewTabGUI() {
 function frameReload() {
   document.getElementById("frame").src += "";
 }
+
+let bill = document.getElementById("billk");
+bill.addEventListener("mouseover", (ev)=>{
+  bill.src = "assets/bill-pickup.png";
+});
+bill.addEventListener("mouseout", (ev)=>{
+  bill.src = "assets/bill.png";
+});
