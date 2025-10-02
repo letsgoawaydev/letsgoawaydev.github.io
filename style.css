@@ -13,19 +13,22 @@ body {
 @font-face {
   font-family: DSI;
   src: url(Nintendo-DS-BIOS.ttf);
-  font-kerning: none;
   font-smooth: never;
   -webkit-font-smoothing: none;
-  text-rendering: optimizeSpeed;
+  text-rendering: geometricPrecision;
 }
 
 * {
-  font-family: DSI, "MS UI Gothic";
+  font-family: "MS UI Gothic", "MS Gothic", "Century Gothic";
+  font-size-adjust: calc(1/3);
   padding: 0;
   margin: 0;
   font-smooth: never;
   -webkit-font-smoothing: none;
-  text-rendering: optimizeSpeed;
+  font-kerning: none;
+  letter-spacing: 1px;
+  
+  text-rendering: geometricPrecision;
   scrollbar-color: #0f1f1f #0c1212;
 }
 
@@ -68,8 +71,8 @@ body {
   text-align: center;
   top: 65px;
   width: 400px;
-  height: 24px;
-  max-height: 24px;
+  height: 32px;
+  max-height: fit-content;
   rotate: -16deg;
   transition: transform 2s;
   animation: 0.25s infinite alternate splashbump;
@@ -154,8 +157,8 @@ a:active {
   position: absolute;
   height: 128px;
   width: auto;
-  right: 15px;
-  top: -10;
+  left: 150px;
+  top: 605px;
   transform-origin:  center;
   animation-timing-function: linear;
 }
