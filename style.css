@@ -27,7 +27,6 @@ html {
 
 * {
   font-family: 'Lexend', sans-serif;
-  image-rendering: pixelated;
   scrollbar-color: var(--var-button-color) var(--var-button-outline);
   color-scheme: light;
 }
