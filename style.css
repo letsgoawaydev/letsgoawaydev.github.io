@@ -11,7 +11,7 @@ html {
   background-repeat: repeat-y;
   background-position: center;
   background-color: rgba(182, 216, 218, 0.25);
-  background-blend-mode: hue;
+  background-blend-mode: color;
 }
 
 
