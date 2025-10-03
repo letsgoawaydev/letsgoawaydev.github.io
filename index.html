@@ -1,151 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- messiest code ive ever written, probably going to redo this site sometime -->
-<head>
-  <meta name="viewport" content="user-scalable=yes, width=device-width, initial-scale=1.0, shrink-to-fit=yes">
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <title>LetsGoAway</title>
-  <link href="style.css?1.1" rel="stylesheet" type="text/css" media="all">
-  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link rel="manifest" href="/site.webmanifest">
-</head>
+  <head>
+    <meta
+      name="viewport"
+      content="user-scalable=yes, width=device-width, initial-scale=1.0, shrink-to-fit=yes"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="theme-color" content="#f2f2f2" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>LetsGoAway</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css?1.2" rel="stylesheet" type="text/css" media="all" />
+  </head>
 
-<body>
-  <div class="parent" id="main">
-    <div id="left-banner">
-      <h1>Projects</h1>
-      <a href="https://modrinth.com/plugin/geyserextras" target="_blank" rel="noopener noreferrer"
-        title="Download on Modrinth">
-        <h2>GeyserExtras</h2>
-      </a>
-      <i><a href="https://geyserextras.letsgoaway.dev/">wiki</a></i>
-      <p>A plugin which attempts to unify features for Bedrock Edition players on Java Edition Servers with GeyserMC,
-        aswell as other handy features for Bedrock Players.</p>
-      <br>
-      <a href="https://modrinth.com/plugin/mapxyz" target="_blank" rel="noopener noreferrer"
-        title="Download on Modrinth">
-        <h2>MapXYZ</h2>
-      </a>
-      <p>A Spigot Minecraft plugin that shows XYZ coordinates on maps like Legacy Console and has other features that
-        make maps better, including locator maps and the starting map gamerule for Java Edition.</p>
-      <br>
-      <a href="https://modrinth.com/mod/client-side-sounds" target="_blank" rel="noopener noreferrer"
-        title="Download on Modrinth">
-        <h2>Client Side Sounds</h2>
-      </a>
-      <p>A mod for Minecraft Java 1.8.9 that fixes the delay of block place sounds when you have high ping.</p>
-      <br>
-      <a href="https://gamebanana.com/mods/521628" target="_blank" rel="noopener noreferrer"
-        title="Download on GameBanana">
-        <h2>Blue House Bundle (DEMO)</h2>
-      </a>
-      <i><a onclick="openFrameGUI('https\://gamesandthings.letsgoaway.dev/app-fnf/bhb/')">play web version</a></i>
-      <p>Cancelled Friday Night Funkin' Mod that I helped my friends with. Runs using a heavily modified version of Psych Engine.</p>
-      <a onclick="openFrameGUI('https\://itch.io/embed-upload/11950296?color=845bfa')"><img src="assets/bill.png" id="billk"
-          alt="Bill Kolumbert"></a>
-      <br>
-      <a href="https://yapping-road.itch.io/bill-kolumbert-prototype" target="_blank" rel="noopener noreferrer"
-        title="Play on itch">
-        <h2>Bill Kolumbert (Prototype)</h2>
-      </a>
-      <i><a onclick="openFrameGUI('https\://itch.io/embed-upload/11950296?color=845bfa')">play</a></i>
-      <p>Touch/Click and Drag</p>
-      <p>to fling Bill!</p>
-      <p>Art by AlohaPotatoes</p>
-      <p>Working on the full version</p>
-      <p>with friends :D</p>
-      <h1>Links</h1>
-      <h2><a href="https://discord.gg/2FfuShKQgy" target="_blank" rel="noopener noreferrer">Discord 🗪</a></h2>
-      <h2><a href="https://github.com/letsgoawaydev" target="_blank" rel="noopener noreferrer" class="monospace">GitHub
-          ᓚᘏᗢ</a></h2>
-
-      <div>
-        <img src="lga.png" id="lga" alt="LetsGoAway">
-        <p id="speech" class="show-on-scroll is-visible">hi, sites still being worked on :p</p>
+  <body>
+    <div id="navbar">
+      <div id="navbar_profile_container">
+        <img src="/pfp.png" id="navbar_pfp" />
+        <a href="/" style="text-decoration: none">
+          <h1 id="navbar_name">LetsGoAway</h1>
+        </a>
+      </div>
+      <div id="navbar_buttons">
+        <button id="navbar_button_projects">Projects</button>
+        <button id="navbar_button_projects">Web Apps</button>
+        <a href="https://letsgoaway.atabook.org">
+          <button id="navbar_button_projects">Guestbook</button>
+        </a>
       </div>
     </div>
 
-    <div id="container">
-      <p id="hugetext">LetsGoAway</p>
-      <p id="splash" onclick="changeSplash()" oncontextmenu="spinSplash(event)"></p>
-      <img src="pfp.png" style="position:absolute; width: 200px; height: 200px; translate: 15px 35px;"></img>
-      <p style="position:absolute; translate: 60px 15px; font-weight: lighter;">art by alohapotatoes :D</p>
-
-      <h2 style="position:absolute; translate: 15px 250px; font-weight: normal;">
-        hi, im letsgoaway :)<br>
-        i make projects for fun<br>
-        you can contact me at <a href="mailto:contact@letsgoaway.dev">contact@letsgoaway.dev</a><br>
-        <br>
-      </h2>
-      <p style="position:absolute; translate: 15px 315px; font-weight: normal;">
-        I write code primarily in HTML/CSS/JS, TypeScript and Java, but I also know a bit of Haxe / Python.
-        <br>
-        this site was inspired by <a href="https://dimden.dev/">dimden.dev</a>'s site, but I will be refreshing it to be a bit more original soon
-      </p>
-
-
+    <div id="page">
+      <div id="mainpage">
+        <div id="about-bubble">
+          <img id="lga-rr" src="assets/lga2.png" />
+          <div>
+            <p>Hi, I’m LetsGoAway.<br />I make apps and projects for fun :)</p>
+            <p style="font-size: 16px">
+              I write code primarily in HTML/CSS/JS, TypeScript and Java,<br />
+              but I also know a bit of Haxe / Python.
+            </p>
+          </div>
+        </div>
+        <h1 style="text-align: center">
+          site redesign is in-progress: some links may not work.
+        </h1>
+      </div>
     </div>
 
-    <div id="right-banner">
-      <h1>Sitemap</h1>
-      <a href="https://letsgoaway.atabook.org/">
-        <h2>Guestbook 🕮</h2>
-      </a>
-      <h1>Scripts & Stuff</h1>
-      <i>every thing here runs in the browser!</i>
-      <br>
-      <h2 style="text-decoration: none; font-weight: normal;"><u>Minecraft</u></h2>
-      <a href="mcassetdownloader">
-        <h3>MCAssetDownloader</h3>
-      </a>
-      <p>Utility for downloading the default Minecraft Resource Packs from Mojang.</p>
-      <a href="MarketplaceEmoteList">
-        <h3>Marketplace Emote List</h3>
-      </a>
-      <p>List of (almost) every single Minecraft: Bedrock Edition emote.</p>
-      <h2 style="text-decoration: none; font-weight: normal;"><u>Utility</u></h2>
+    <div id="footer">
+      <div id="footer_top">
+        <h3>Contact</h3>
+        <a href="mailto:contact@letsgoaway.dev"><button>Email</button></a>
+        <br />
+        <a href="https://github.com/letsgoawaydev/"><button>GitHub</button></a>
+        <br />
+        <button>Discord</button>
+        <br />
+                <iframe
+          src="https://incr.easrng.net/badge?key=letsgoawayneocity"
+          title="increment badge"
+          width="88"
+          height="31"
+          frameborder="0"
+        ></iframe>
+      </div>
 
-      <a href="DevinsBadgesGenerator">
-        <h3>Devin's Badges Generator</h3>
-      </a>
-      <p>Markdown Link generator for the Devin's Badges repository.</p>
-      <a href="DSIUtil">
-        <h3>DSiUtil</h3>
-      </a>
-      <i><a href="https://github.com/letsgoawaydev/DSIUtil">source</a></i>
-      <p>A viewer for Nintendo DSi Camera images on an SD card that runs completely in the browser, styled like the Nintendo DSi Camera app</p>
-      <h2 style="text-decoration: none; font-weight: normal;"><u>Other</u></h2>
+      <div id="footer_bottom">
+        <h1 id="footer_bottom_left">Art by AlohaPotatoes</h1>
 
-      <a href="polling-rate-calculator">
-        <h3>Mouse Polling Rate Calculator</h3>
-      </a>
-      <p>Calculates mouse polling rate in hz.</p>
-
-      <a href="discgif">
-        <h3>DiscGif (Image to GIF)</h3>
-      </a>
-      <p>Converts images to GIF's so it can be favorited on Discord.</p>
-
-      <br>
-      <h1>Widgets</h1>
-      <br>
-      <iframe src="//incr.easrng.net/badge?key=letsgoawayneocity"
-        style="border:none;background: url(//incr.easrng.net/bg.gif)" title="increment badge" width="88"
-        height="31"></iframe>
-      <a href="https://github.com/letsgoawaydev/" ><img src="assets/88x31/github.gif" /></a>
+        <h1 id="footer_bottom_right">letsgoaway.dev</h1>
+      </div>
     </div>
-  </div>
-  <div id="frame-container">
-    <button class="frame-button" id="close" onclick="deleteFrameGUI()">⛌</button>
-    <button class="frame-button" id="reload" onclick="frameReload()">⟳</button>
-
-    <button class="frame-button" id="newtab" onclick="openInNewTabGUI()">🗖</button>
-    <button class="frame-button" id="fullscreen">⛶</button>
-  </div>
-  <script src="script.js?1.1"></script>
-</body>
-
+  </body>
 </html>

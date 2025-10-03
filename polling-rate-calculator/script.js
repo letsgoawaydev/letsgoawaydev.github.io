@@ -47,8 +47,8 @@ window.setInterval(() => {
 window.addEventListener('pointerrawupdate', (ev) => {
     if (started) {
         const coalescedEvents = ev.getCoalescedEvents();
-            for (let coalescedEvent of coalescedEvents) {
-           mouseMovedTimes++;
+        for (let coalescedEvent of coalescedEvents) {
+            mouseMovedTimes++;
         }
     }
 });

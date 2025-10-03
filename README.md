@@ -1,2 +1,0 @@
-# letsgoawaydev.github.io
-website
