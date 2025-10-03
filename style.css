@@ -3,19 +3,18 @@ html {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 100%;
+  height: max-content;
   padding: 0;
   margin: 0;
   background-size: cover;
   background-image: url("assets/bg-pattern.webp");
+  background-repeat: repeat-y;
   background-position: center;
   background-color: rgba(182, 216, 218, 0.25);
   background-blend-mode: hue;
 }
 
-* {
-  font-family: 'Lexend', sans-serif;
-}
+
 
 :root {
   --var-name-color: #8EB6BA;
@@ -24,6 +23,19 @@ html {
   --var-bg-color: #B6D8DA;
 
   background-color: var(--var-bg-color);
+}
+
+* {
+  font-family: 'Lexend', sans-serif;
+  image-rendering: pixelated;
+  scrollbar-color: var(--var-button-color) var(--var-button-outline);
+  color-scheme: light;
+}
+
+::webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 #navbar {
@@ -112,7 +124,7 @@ button:active {
 }
 
 #footer {
-  min-height: 256px;
+  min-height: fit-content;
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -120,6 +132,7 @@ button:active {
   height: max-content;
   background-size: cover;
   background-image: url("assets/bg-pattern.webp");
+
   background-position: center;
   background-color: rgba(182, 216, 218, 0.5);
   background-blend-mode: darken;
@@ -161,6 +174,32 @@ button:active {
   text-align: right;
 
   color: var(--var-name-color)
+}
+
+/* Main Page */
+
+#mainpage {
+  height: 100vh;
+}
+
+#about-bubble {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+  width: 75vw;
+  max-height: 25vw;
+  margin-top: 16px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.135);
+}
+
+#lga-rr {
+  position: relative;
+  max-height: 25vw;
 }
 
 @media (max-width: 650px) {
