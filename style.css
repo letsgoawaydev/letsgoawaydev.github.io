@@ -114,10 +114,13 @@ button:active {
   display: flex;
   flex-direction: column;
   align-items: center;
-
+  justify-content: center;
 }
 
 #page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   flex-grow: 1;
   height: fit-content;
 }
@@ -178,7 +181,14 @@ button:active {
 /* Main Page */
 
 #mainpage {
-  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  align-content: center;
 }
 
 #about-bubble {
@@ -201,6 +211,58 @@ button:active {
   max-height: 25vw;
 }
 
+#about-subtext {
+  font-size: 16px;
+}
+
+
+.project-bubble {
+  padding: 16px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 20px;
+  width: 85vw;
+  max-height: 25vw;
+  max-width: 1000px;
+  margin-top: 16px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(5px);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.135);
+  transition: all 0.1s linear;
+}
+
+.project-bubble:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 4px 24px rgba(57, 146, 161, 0.25);
+
+}
+
+.project-bubble a {
+  color: var(--var-name-color);
+  transition: all 0.1s linear;
+}
+
+.project-bubble a:hover {
+  color: var(--var-button-outline);
+}
+
+.project-bubble img {
+  max-height: 128px;
+  height: 100%;
+  min-height: 5vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 0px rgba(255, 255, 255, 0.135);
+  user-select: none;
+  border-radius: 16px;
+}
+
+
+
+
 @media (max-width: 650px) {
   #navbar {
     flex-direction: column;
@@ -221,8 +283,28 @@ button:active {
     display: none;
   }
 
+  #about-bubble {
+    font-size: 3vw;
+  }
+
+  #about-subtext {
+    font-size: 2vw;
+  }
+
   #footer_bottom {
     flex-direction: column;
     height: max-content;
+  }
+
+  .project-bubble h3 {
+    font-size: 4vw;
+  }
+
+  .project-bubble p {
+    font-size: 3vw;
+  }
+
+  .project-sublink {
+    font-size: 3vw;
   }
 }
