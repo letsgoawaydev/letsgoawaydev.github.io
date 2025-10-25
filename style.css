@@ -215,6 +215,35 @@ button:active {
   font-size: 16px;
 }
 
+.project-with-background {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: 100vh;
+  background-image: url("assets/project-anims/bk.webp");
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.project-with-background .project-bubble {
+  backdrop-filter: saturate(100%) blur(5px);
+}
+.project-with-background .project-bubble:hover {
+  backdrop-filter: saturate(150%) blur(128px);
+}
+
+
+.project-with-background .project-bubble a {
+  color: #fff;
+  transition: all 0.1s linear;
+}
 
 .project-bubble {
   padding: 16px;
@@ -226,6 +255,7 @@ button:active {
   font-size: 20px;
   width: 85vw;
   max-height: 25vw;
+  min-height: fit-content;
   max-width: 1000px;
   margin-top: 16px;
   border-radius: 16px;
@@ -238,7 +268,6 @@ button:active {
 .project-bubble:hover {
   transform: translateY(-5px);
   box-shadow: 0px 4px 24px rgba(57, 146, 161, 0.25);
-
 }
 
 .project-bubble a {
@@ -251,6 +280,7 @@ button:active {
 }
 
 .project-bubble img {
+  padding: 16px;
   max-height: 128px;
   height: 100%;
   min-height: 5vh;
@@ -259,6 +289,8 @@ button:active {
   user-select: none;
   border-radius: 16px;
 }
+
+.project-bubble p {}
 
 
 
@@ -291,9 +323,14 @@ button:active {
     font-size: 2vw;
   }
 
+  #footer_top button {
+    font-size-adjust: 0.7;
+  }
+
   #footer_bottom {
     flex-direction: column;
     height: max-content;
+    text-align: center;
   }
 
   .project-bubble h3 {
@@ -306,5 +343,17 @@ button:active {
 
   .project-sublink {
     font-size: 3vw;
+  }
+
+  .project-bubble {
+    flex-direction: column;
+    font-size-adjust: 0.8;
+  }
+
+  #about-bubble {
+    font-size-adjust: 1;
+    min-height: max-content;
+    flex-direction: column;
+
   }
 }
