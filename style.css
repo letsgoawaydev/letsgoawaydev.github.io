@@ -7,12 +7,11 @@ html {
   padding: 0;
   margin: 0;
   background-size: cover;
-  background-image: url("assets/bg-pattern.webp");
   background-repeat: repeat-y;
   background-position: center;
-  background-color: rgba(182, 216, 218, 0.25);
   background-blend-mode: color;
 }
+
 
 
 
@@ -22,7 +21,14 @@ html {
   --var-button-outline: #EABA5D;
   --var-bg-color: #B6D8DA;
 
-  background-color: var(--var-bg-color);
+  --navbar-small: 64px;
+  --navbar-large: 128px;
+  /* background-color: var(--var-bg-color); */
+
+}
+
+body {
+  background-color: transparent;
 }
 
 * {
@@ -37,15 +43,40 @@ html {
   height: 0;
 }
 
+iframe {
+  border: none;
+}
+
 #navbar {
   display: flex;
-  height: 64px;
+  width: 100%;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.135);
+
+  height: var(--navbar-small);
   background-image: url("assets/bg-pattern.webp");
   background-position: center;
   flex-direction: row;
   background-size: cover;
   justify-content: left;
+  overflow: hidden;
+}
+
+#navbar_frame_container {
+  height: var(--navbar-small);
+
+  overflow: hidden;
+
+  /* width: 5px; */
+}
+
+#navbar_frame {
+  position: absolute;
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.135);
+  width: 100%;
+  /* position: absolute; */
+  /* width: 5px; */
+  height: var(--navbar-small);
+
 }
 
 #navbar_profile_container {
@@ -102,17 +133,11 @@ button:active {
   transform: translateY(3px);
 }
 
+
 #navbar_buttons {
   flex-grow: 1;
   display: flex;
   flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-#mainpage {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
@@ -123,6 +148,27 @@ button:active {
   align-items: center;
   flex-grow: 1;
   height: fit-content;
+}
+
+/* Main Page */
+#mainpage {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  height: max-content;
+  padding-top: 16px;
+  padding-bottom: 32px;
+  align-items: center;
+  justify-content: center;
+  background-image: url("assets/bg-pattern.webp");
+  background-size: cover;
+  background-repeat: repeat-y;
+  background-position: center;
+  background-blend-mode: color;
+  align-content: center;
+  background-color: rgba(182, 216, 218, 0.25);
+
 }
 
 #footer {
@@ -178,18 +224,7 @@ button:active {
   color: var(--var-name-color)
 }
 
-/* Main Page */
 
-#mainpage {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  min-height: 100vh;
-  height: max-content;
-  padding-top: 16px;
-  padding-bottom: 32px;
-  align-content: center;
-}
 
 #about-bubble {
   display: flex;
@@ -235,6 +270,7 @@ button:active {
 .project-with-background .project-bubble {
   backdrop-filter: saturate(100%) blur(5px);
 }
+
 .project-with-background .project-bubble:hover {
   backdrop-filter: saturate(150%) blur(128px);
 }
@@ -294,11 +330,14 @@ button:active {
 
 
 
-
 @media (max-width: 650px) {
   #navbar {
     flex-direction: column;
-    height: 128px;
+    height: var(--navbar-large);
+  }
+
+  #navbar_frame {
+    height: var(--navbar-large);
   }
 
   #navbar_name {
