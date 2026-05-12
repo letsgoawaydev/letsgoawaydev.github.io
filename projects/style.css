@@ -1,0 +1,34 @@
+@keyframes billspin {
+    0% {
+        rotate: 0deg;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    100% {
+        rotate: 360deg;
+        background-color: transparent;
+        box-shadow: none;
+    }
+}
+@keyframes billspinreturn {
+    100% {
+        rotate: 0deg;
+    
+    }
+
+}
+#bill {
+    background-image: url("/assets/icons/projects/bill-normal.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+    rotate: 0deg;
+}
+
+#bill:hover {
+    background-image: url("/assets/icons/projects/bill-pickup.png");
+    animation: billspin 0.5s infinite linear;
+}
+
