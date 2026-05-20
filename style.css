@@ -172,12 +172,13 @@ button:active {
 }
 
 #footer {
-  min-height: fit-content;
+  position: fixed;
+  
   display: flex;
   flex-direction: column;
   justify-self: center;
   width: 100%;
-  height: max-content;
+  height: 100%;
   background-size: cover;
   background-image: url("assets/bg-pattern.webp");
 
@@ -185,6 +186,7 @@ button:active {
   background-color: rgba(182, 216, 218, 0.5);
   background-blend-mode: darken;
   box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.135);
+
 }
 
 #footer_top {
@@ -224,6 +226,22 @@ button:active {
   color: var(--var-name-color)
 }
 
+#footer_frame {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  width: 100%;
+  height: 300px;
+  position: relative;
+  bottom: 0;
+  background-size: cover;
+  background-image: url("assets/bg-pattern.webp");
+
+  background-position: center;
+  background-color: rgba(182, 216, 218, 0.5);
+  background-blend-mode: darken;
+  box-shadow: 0px -4px 12px rgba(0, 0, 0, 0.135);
+}
 
 
 #about-bubble {
