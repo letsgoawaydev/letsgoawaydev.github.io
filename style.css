@@ -173,7 +173,7 @@ button:active {
 
 #footer {
   position: fixed;
-  
+
   display: flex;
   flex-direction: column;
   justify-self: center;
@@ -254,10 +254,12 @@ button:active {
   max-height: 25vw;
   margin-top: 16px;
   border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.10);
-  backdrop-filter: blur(5px);
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.135);
+
+
+
+
 }
+
 
 #lga-rr {
   position: relative;
@@ -286,11 +288,11 @@ button:active {
 }
 
 .project-with-background .project-bubble {
-  backdrop-filter: saturate(100%) blur(5px);
+  /* backdrop-filter: saturate(100%) blur(5px); */
 }
 
 .project-with-background .project-bubble:hover {
-  backdrop-filter: saturate(150%) blur(128px);
+  /* backdrop-filter: saturate(150%) blur(128px); */
 }
 
 
@@ -313,15 +315,17 @@ button:active {
   max-width: 1000px;
   margin-top: 16px;
   border-radius: 16px;
-  background-color: rgba(255, 255, 255, 0.10);
+  /* background-color: rgba(255, 255, 255, 0.10);
   backdrop-filter: blur(5px);
-  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.135);
+  box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.135); */
   transition: all 0.1s linear;
 }
 
 .project-bubble:hover {
   transform: translateY(-5px);
-  box-shadow: 0px 4px 24px rgba(57, 146, 161, 0.25);
+  backdrop-filter: blur(8px) url(#lg-filter) blur(8px) saturate(1.5) brightness(1.0);
+  -webkit-backdrop-filter: blur(8px)  saturate(1.5) brightness(1.0) contrast(1.05);
+  /* box-shadow: 0px 4px 24px rgba(57, 146, 161, 0.25); */
 }
 
 .project-bubble a {
@@ -415,4 +419,15 @@ button:active {
     flex-direction: column;
 
   }
+}
+
+.fake-liquid-glass {
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(0px) url(#lg-filter) blur(0px) saturate(1.5) brightness(1.0);
+  -webkit-backdrop-filter: blur(0px) saturate(1.5) brightness(1.0) contrast(1.05);
+  box-shadow:
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15),
+    inset 1.5px 1.5px 0 rgba(255, 255, 255, 0.5),
+    inset 0 0 12px rgba(255, 255, 255, 0.2),
+    0 8px 32px rgba(0, 0, 0, 0.2);
 }
